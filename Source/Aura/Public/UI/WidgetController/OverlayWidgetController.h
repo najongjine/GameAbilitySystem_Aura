@@ -46,6 +46,7 @@ public:
 	virtual void BroadcastInitialValues() override;
 	virtual void BindCallbacksToDependencies() override;
 
+	// binded to this delegate in BP
 	UPROPERTY(BlueprintAssignable, Category="GAS|Attributes")
 	FOnHealtChangedSignature OnHealthChanged;
 
